@@ -1,0 +1,77 @@
+🕒 JavaScript Date & Time Practice Questions
+✅ Beginner Level (15 Questions)
+
+Get the current date and time.
+
+Get only the current year.
+
+Get only the current month (0-11).
+
+Get the current date (1-31).
+
+Get the current day of the week (0-6).
+
+Get the current hour (0-23).
+
+Get the current minutes and seconds.
+
+<------------------------complete 1st day of practice set----------------------->
+
+Format the current date as DD-MM-YYYY.
+
+Format the current date as YYYY/MM/DD.
+
+Display a full timestamp like September 20, 2025, 10:30 AM.
+
+Create a Date object for a specific date (e.g., 1 Jan 2020).
+
+Compare two dates to find which is earlier.
+
+Calculate the number of milliseconds between two dates.
+
+Check if a given date is today.
+
+Convert a Date object to a readable string using .toDateString() or .toLocaleString().
+
+
+
+
+
+🚀 Intermediate Level (10 Questions)
+
+Write a function that returns how many days are left until New Year.
+
+Build a countdown timer to a future date (e.g., birthday or event).
+
+Calculate a person’s age from their birthdate.
+
+Add 7 days to the current date.
+
+Subtract 30 minutes from the current time.
+
+Get the number of days in the current month.
+
+Check if a year is a leap year.
+
+Convert a UNIX timestamp to a readable date.
+
+Convert a readable date to a UNIX timestamp.
+
+Build a digital clock that updates every second using setInterval().
+
+
+
+
+🧠 Bonus Concepts to Practice:
+
+Date.now()
+
+.getTime() and .setTime()
+
+.toISOString()
+
+.toLocaleDateString(), .toLocaleTimeString()
+
+Timezone handling (basic level)
+
+Intl.DateTimeFormat for custom formatting

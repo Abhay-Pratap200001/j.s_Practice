@@ -1,0 +1,176 @@
+🔥 1. String Topics for Interviews (Theory + DSA)
+These are the concepts interviewers love to test:
+
+// -----------------------------------------------------------
+Basics
+
+Immutable nature of strings
+
+String vs character array
+
+Unicode / ASCII / UTF-8 basics
+
+Reversal & Palindrome
+
+Reverse a string
+
+Check palindrome
+
+Longest palindromic substring
+
+Searching & Matching
+
+Substring search (indexOf, KMP algorithm, Rabin-Karp basics)
+
+Pattern matching (regex, wildcard * and ?)
+
+Frequency & Counting
+
+Count frequency of characters
+
+First non-repeating character
+
+Anagram check (two strings are permutations)
+
+Grouping anagrams
+
+Manipulation
+
+Remove duplicates
+
+Remove white spaces / special characters
+
+Replace words / characters
+
+Split and join strings
+
+Conversions
+
+String ↔ Number (parseInt, parseFloat, toString)
+
+String ↔ Array (split, Array.from)
+
+Advanced
+
+Longest common prefix (important in coding rounds)
+
+Rotate strings (left / right shift)
+
+String compression (Run-length encoding style)
+
+Subsequence vs Substring problems
+
+Sliding window problems (longest substring without repeating characters, etc.)
+
+👉 Most FAANG-style questions around strings are based on:
+
+Palindrome
+
+Substring sliding window
+
+Anagram / frequency map
+
+Regex / pattern matching
+
+// <-----------------------------------------------------------------------------------------------> 
+
+⚡ 2. String Methods Commonly Used in Real Projects (JavaScript Focus)
+
+In web/MERN projects, you constantly deal with strings: formatting user input, URLs, API responses, DB queries, etc.
+
+Here are the must-know methods (JavaScript, but almost same in other languages):
+
+
+// -----------------------------------------------------------------
+✅ Basic String Properties
+
+.length → find string length
+
+✅ Accessing Characters
+
+str[index]
+
+.charAt(index)
+
+.charCodeAt(index)
+
+✅ Searching
+
+.indexOf(substring)
+
+.lastIndexOf(substring)
+
+.includes(substring)
+
+.startsWith(prefix)
+
+.endsWith(suffix)
+
+✅ Extracting
+
+.slice(start, end)
+
+.substring(start, end)
+
+.substr(start, length) (deprecated but asked in interviews)
+
+✅ Modifying
+
+.toUpperCase() / .toLowerCase()
+
+.trim() / .trimStart() / .trimEnd()
+
+.padStart() / .padEnd() (useful for formatting)
+
+.repeat(n)
+
+✅ Splitting & Joining
+
+.split(separator) → converts string to array
+
+.join(separator) → converts array to string
+
+✅ Replacing
+
+.replace(old, new)
+
+.replaceAll(old, new)
+
+Regex-based replace → .replace(/pattern/g, new)
+
+✅ String with Arrays
+
+Template literals (`Hello ${name}`)
+
+Concatenation (+ or .concat())
+
+✅ Useful Utilities
+
+.match(regex)
+
+.matchAll(regex)
+
+.search(regex)
+
+
+
+// <-------------------------------------------------->
+🚀 Most Used in Projects
+
+When you’re actually building apps, the most common string methods are:
+
+// ---------------------------------------------------------------------
+.trim() → clean user input
+
+.toLowerCase() / .toUpperCase() → normalize case before saving/searching
+
+.split() / .join() → handle CSV, tags, lists, etc.
+
+.replace() / .replaceAll() → sanitize input, format strings
+
+.includes() / .startsWith() / .endsWith() → searching and filtering
+
+Template literals → dynamic rendering (Hello ${user.name})
+✅ So for interviews, focus more on palindrome, substring, frequency map, regex, sliding window.
+✅ For projects, master string methods (trim, split, replace, includes, toLowerCase).
+// ---------------------------------------------------------------------------------------

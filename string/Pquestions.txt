@@ -1,0 +1,129 @@
+✅ Beginner JavaScript String Questions (30)
+
+Write a function to return the length of a string.
+
+Convert a string to uppercase.
+
+Convert a string to lowercase.
+
+Capitalize the first letter of a string.
+
+Find the index of a specific character in a string.
+
+Find the last index of a specific character.
+
+Check if a string includes a specific substring.
+
+Extract the first 5 characters of a string.
+
+Extract the last 3 characters of a string.
+
+Replace a word in a string with another word.
+
+Replace all instances of a word using regex.
+
+Split a string into an array by spaces.
+
+Join an array of words into a sentence.
+
+Trim spaces from both ends of a string.
+
+<------------------complete for day 1---------------------->
+
+Count how many times a specific character appears.
+
+Check if a string starts with a specific word.
+
+Check if a string ends with a specific word.
+
+Reverse a string.
+
+Convert a string to a number (parseInt, parseFloat).
+
+Check if a string is a palindrome (same forward and backward).
+
+Remove all whitespace from a string.
+
+Find the ASCII code of a character.
+
+Get the character from an ASCII code.
+
+Repeat a string N times.
+
+Escape special characters in a string.
+
+Replace multiple spaces with a single space.
+
+Extract all digits from a string.
+
+Count the number of vowels in a string.
+
+Toggle the case of each character (a → A, A → a).
+
+Convert a snake_case string to camelCase.
+
+
+
+
+
+
+
+
+
+
+🚀 Intermediate JavaScript String Questions (20)
+
+Write a function to compress repeated characters:
+'aaabbc' → 'a3b2c1'
+
+Remove duplicate characters from a string.
+
+Find the longest word in a sentence.
+
+Count the frequency of each character in a string.
+
+Check if two strings are anagrams.
+
+Write a custom implementation of string.trim().
+
+Replace vowels with the next character in the alphabet.
+
+Convert a sentence to title case.
+"hello world" → "Hello World"
+
+Write a function to rotate characters in a string to the right by k positions.
+
+Reverse the words in a sentence.
+"Hello World" → "World Hello"
+
+Convert a string to URL slug.
+"Hello World!" → "hello-world"
+
+Mask all characters in a string except the last 4 (e.g., credit card masking).
+
+Remove non-alphabetic characters from a string.
+
+Find the first non-repeating character in a string.
+
+Encode a string using run-length encoding.
+
+Implement a simple Caesar cipher (shift each character by N positions).
+
+Count how many words are in a sentence (handle multiple spaces).
+
+Check if a string is a valid email address using regex.
+
+Find the longest palindromic substring in a string.
+
+Build a function to convert numbers into words (e.g., 123 → "one two three").
+
+💡 Want Even More Practice?
+
+Let me know if you want:
+
+Solutions to these questions
+
+Hints for tricky ones
+
+Grouped questions (e.g., only regex, only custom logic)
+

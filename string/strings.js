@@ -1,0 +1,85 @@
+//  Write a function to return the length of a string.
+// let name = 'Abhay'
+// function strlen() {
+//     console.log(name.length);
+// }
+//  strlen()
+
+
+
+// Convert a string to uppercase.
+// let Name = 'Abhay'
+// console.log(Name.toUpperCase());
+
+
+
+
+// Convert a string to lowercase
+// let Name = 'Abhay'
+// console.log(Name.toLowerCase());
+
+
+
+// Capitalize the first letter of a string.
+// let Name = 'abhay'
+// console.log(Name.charAt(0).toUpperCase() + Name.slice(1));
+
+
+
+// Find the index of a specific character in a string.
+// let Name = 'ABHAY'
+// let res = Name.indexOf('B')
+// console.log(res);
+
+
+
+// Find the last index of a specific character.
+// let Name = 'ABHAY'
+// let res = Name.indexOf('Y')
+// console.log(res);
+
+
+
+// Check if a string includes a specific substring.
+// let Name = 'ABHAY'
+// let res = Name.includes('A')
+// console.log(res);
+
+
+
+
+// Extract the first 5 characters of a string.
+// console.log('AbhayPratap'.slice(0, 5));
+
+
+
+// // Extract the last 3 characters of a string.
+// console.log('AbhayPratap'.slice(8, 11));
+
+
+
+// Replace a word in a string with another word.
+// console.log('AbhayPratap'.replace("AbhayPratap", 'RATNAKAR'));
+
+
+
+// Replace all instances of a word using regex.
+// let text = "This is a test string. This is another test.";
+// let ans = text.replace(/This/g,'')
+// console.log(ans);
+
+
+// Split a string into an array by spaces.
+// console.log('Abhay'.split('').join('  '));
+
+
+
+// // Join an array of words into a sentence.
+
+// let arr = ['a','c','d','e','f','g']
+// let sen = arr.join('')
+// console.log(sen);
+
+
+// // Trim spaces from both ends of a string.
+// console.log('  Abhay  '.trim())

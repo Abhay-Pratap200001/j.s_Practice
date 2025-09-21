@@ -1,0 +1,115 @@
+✅ Beginner JavaScript Math/Numbers Questions (30)
+
+Write a function to add two numbers.
+
+Subtract one number from another.
+
+Multiply two numbers.
+
+Divide two numbers and return the quotient.
+
+Find the remainder using the modulus operator.
+
+Convert a string to a number using Number().
+
+Convert a number to a string using .toString().
+
+Round a number to the nearest integer.
+
+Round a number up using Math.ceil().
+
+Round a number down using Math.floor().
+
+
+<------------------------1st Day of practicee questions conplete------------------------------->
+
+
+Find the square of a number.
+
+Find the square root of a number.
+
+Generate a random number between 0 and 1.
+
+Generate a random integer between 1 and 100.
+
+Find the absolute value of a number.
+
+Get the value of PI (Math.PI).
+
+Raise a number to a power (e.g., 2⁴).
+
+Get the minimum of 3 numbers using Math.min().
+
+Get the maximum of 3 numbers using Math.max().
+
+Parse an integer from a string with parseInt().
+
+Parse a float from a string with parseFloat().
+
+Format a number to 2 decimal places using .toFixed(2).
+
+Check if a value is a number (isNaN()).
+
+Find the percentage of a number.
+
+Find the average of 3 numbers.
+
+Swap two numbers using a temporary variable.
+
+Swap two numbers without using a temp variable.
+
+Check if a number is even.
+
+Check if a number is odd.
+
+Check if a number is positive, negative, or zero.
+
+
+
+
+
+
+
+
+
+🚀 Intermediate JavaScript Math/Numbers Questions (20)
+
+Find the factorial of a number (e.g., 5! = 120).
+
+Check if a number is prime.
+
+Generate the first n prime numbers.
+
+Write a function to check if a number is a palindrome (e.g., 121 → true).
+
+Find the GCD (Greatest Common Divisor) of two numbers.
+
+Find the LCM (Least Common Multiple) of two numbers.
+
+Convert a decimal number to binary.
+
+Convert a binary number to decimal.
+
+Count the number of digits in a number.
+
+Find the sum of digits of a number.
+
+Reverse the digits of a number (e.g., 123 → 321).
+
+Generate a Fibonacci sequence up to N terms.
+
+Find the nth Fibonacci number.
+
+Check if a number is part of the Fibonacci sequence.
+
+Convert a number to hexadecimal.
+
+Create a number guessing game using Math.random().
+
+Find all factors of a given number.
+
+Write a function to round a number to the nearest multiple of 10.
+
+Convert minutes to hours and minutes (e.g., 130 → "2 hours 10 mins").
+
+Find the distance between two points in 2D using the distance formula.

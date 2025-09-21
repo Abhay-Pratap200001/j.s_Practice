@@ -1,0 +1,189 @@
+🔥 1. Date & Time Concepts for Interviews
+✅ Basic Theory (they test your understanding)
+
+<----------------------------------------------------------------------->
+
+Epoch time / UNIX timestamp (milliseconds since Jan 1, 1970 UTC)
+
+UTC vs GMT vs IST (time zones)
+
+Local time vs server time
+
+ISO 8601 date format (YYYY-MM-DDTHH:mm:ssZ)
+
+Difference between Date.now() and new Date()
+
+24-hour vs 12-hour format (AM/PM conversion)
+
+------------------------------------------------------------->
+
+✅ Common Coding Problems
+
+Get current date & time
+
+Format date (DD/MM/YYYY, YYYY-MM-DD)
+
+Add or subtract days/months/years
+
+Find day of week (Monday, Tuesday, etc.)
+
+Age calculator (DOB → years, months, days)
+
+Countdown timer (time left for an event)
+
+Convert UTC to local time
+
+Difference between two dates (days/hours/minutes)
+
+Sorting array of dates
+
+Get start/end of week, month, year
+
+Timezone conversion (tricky, interviewer’s favorite)
+
+
+--------------------------------------------------------------------->
+
+⚡ 2. Date/Time Methods in JavaScript (Most Used in Projects)
+
+---------------------------------------------------------------------->
+✅ Creating Dates
+
+new Date()                  // current date & time
+new Date("2025-09-06")      // from string
+new Date(2025, 8, 6, 10, 30) // year, month(0-based), day, hr, min
+Date.now()                  // timestamp in ms
+ 
+ ----------------------------------------------------------------------->
+
+✅ Getting Values
+
+getFullYear() → year
+
+getMonth() → month (0–11)
+
+getDate() → day of month (1–31)
+
+getDay() → day of week (0 = Sunday)
+
+getHours(), getMinutes(), getSeconds(), getMilliseconds()
+
+getTime() → timestamp (ms since 1970)
+
+getTimezoneOffset() → timezone difference in minutes
+
+(There are also UTC versions: getUTCFullYear(), getUTCHours() etc.)
+
+------------------------------------------------------------->
+
+✅ Setting Values
+
+setFullYear(year, month?, day?)
+
+setMonth(month, day?)
+
+setDate(day)
+
+setHours(h, m?, s?, ms?)
+
+setMinutes(), setSeconds()
+
+setTime(timestamp)
+
+----------------------------------------------------------------->
+
+✅ Formatting Dates
+
+.toDateString() → "Sat Sep 06 2025"
+
+.toISOString() → "2025-09-06T10:30:00.000Z" (standard for APIs)
+
+.toLocaleDateString("en-IN") → "06/09/2025"
+
+.toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit" }) → "10:30 AM"
+
+.toString() → full string with timezone
+
+--------------------------------------------------------------------->
+
+✅ Useful Tricks in Projects
+
+Format date/time properly (for invoices, reports, UI)
+
+Convert timestamp from backend → readable date
+
+Expiry dates (JWT tokens, OTPs, subscriptions)
+
+Scheduling tasks (reminders, notifications)
+
+Sorting by createdAt/updatedAt fields
+
+Display "time ago" (5 minutes ago, 2 days ago)
+
+Timezone conversion (user in IST, server UTC)
+
+
+--------------------------------------------------------------->
+
+🚀 Most Used in Real Projects
+
+Date.now() → store timestamps
+
+.toISOString() → save in DB (MongoDB, SQL)
+
+.toLocaleDateString() / .toLocaleTimeString() → show user-friendly date/time
+
+getFullYear, getMonth, getDate → extract parts for reports/filters
+
+Difference in dates (like subscription expiry, task deadline)
+
+setDate(getDate() + n) → add/subtract days
+
+
+------------------------------------------------------------->
+
+
+⚡ Bonus: Libraries (very common in projects)
+
+
+Because native Date is clunky, most projects use:
+
+Moment.js (older, still used in many codebases)
+
+Day.js (lightweight modern alternative)
+
+date-fns (functional, tree-shakeable, very popular)
+
+Luxon (powerful, timezone handling)
+
+Example with date-fns:
+
+import { format, addDays, differenceInDays } from "date-fns";
+
+format(new Date(), "dd/MM/yyyy");         // 06/09/2025
+addDays(new Date(), 7);                   // 1 week later
+differenceInDays(new Date("2025-09-10"), new Date("2025-09-06")); // 4
+
+
+------------------------------------------------------------------------>
+
+✅ For interviews, focus on:
+
+Timestamp vs Date object
+
+Format dates manually (dd/mm/yyyy)
+
+Date difference logic
+
+Adding/subtracting dates
+
+UTC vs Local time
+
+✅ For projects, you’ll mostly use:
+
+toISOString, toLocaleDateString, getFullYear, setDate
+
+Libraries like date-fns / dayjs for formatting & manipulation
+
+
+------------------------------------------------------------->

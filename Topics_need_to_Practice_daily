@@ -1,0 +1,278 @@
+1. Strings
+
+2.Number and Maths
+
+3.Date and time
+
+4. Array
+
+5.Objects
+
+<---------------------------------------------------------------------------------------------------->
+
+
+
+
+🔥 Beginner to Intermediate JavaScript Roadmap
+✅ 1. Basics & Fundamentals
+
+Variables: var, let, const
+
+Data Types: String, Number, Boolean, null, undefined, Symbol, BigInt
+
+Type Conversion (implicit vs explicit)
+
+Operators: Arithmetic, Assignment, Comparison, Logical
+
+Control Flow:
+
+if, else, else if
+
+switch statement
+
+Ternary operator ? :
+
+Loops:
+
+for, while, do...while
+
+for...in, for...of
+
+Comments (//, /* */)
+
+
+
+
+
+
+
+✅ 2. Functions
+
+Function declarations & expressions
+
+Arrow functions (()=>)
+
+Parameters, default parameters
+
+Return values
+
+Callback functions
+
+Function scope
+
+IIFE (Immediately Invoked Function Expressions)
+
+Higher-order functions (functions that return or accept other functions)
+
+
+
+
+
+
+✅ 3. Objects & Arrays
+
+Object literals, nested objects
+
+Accessing/modifying properties (dot, bracket notation)
+
+Object methods (Object.keys(), Object.values(), Object.entries())
+
+Arrays: push, pop, shift, unshift, splice, slice, indexOf, includes
+
+Array iteration methods:
+
+forEach()
+
+map()
+
+filter()
+
+reduce()
+
+find()
+
+some(), every()
+
+
+
+
+
+
+✅ 4. Scope & Closures
+
+Block vs function scope
+
+Lexical scope
+
+Hoisting
+
+Closures (very important for interviews and real projects)
+
+
+
+
+
+
+✅ 5. this Keyword
+
+Global context
+
+Inside functions & objects
+
+In arrow functions
+
+bind(), call(), apply() (important for interviews)
+
+
+
+
+
+
+✅ 6. DOM Manipulation
+
+Selecting elements (getElementById, querySelector)
+
+Changing content (innerText, innerHTML)
+
+Modifying attributes & styles
+
+Creating/removing elements (createElement, appendChild, removeChild)
+
+Classes (classList.add/remove/toggle)
+
+Forms and inputs (value, submit event)
+
+
+
+
+
+
+✅ 7. Events & Event Handling
+
+addEventListener()
+
+Event object (event.target, event.preventDefault())
+
+Event types: click, change, submit, keydown, input, etc.
+
+Event bubbling and capturing
+
+Event delegation
+
+
+
+
+
+
+✅ 8. Asynchronous JavaScript
+
+setTimeout, setInterval
+
+Callbacks
+
+Promises: new Promise(), .then(), .catch()
+
+async/await
+
+Error handling with try/catch
+
+fetch() API for HTTP requests
+
+JSON parsing (JSON.stringify(), JSON.parse())
+
+
+
+
+
+
+✅ 9. ES6+ Modern JavaScript Features
+
+let and const
+
+Template literals
+
+Arrow functions
+
+Destructuring (arrays & objects)
+
+Spread (...) and Rest operators
+
+Default parameters
+
+Enhanced object literals
+
+Optional chaining (?.)
+
+Nullish coalescing (??)
+
+Short-circuit evaluation (||, &&)
+
+Modules: import and export
+
+Named vs default exports
+
+
+
+
+
+
+✅ 10. Object-Oriented JavaScript
+
+Constructor functions
+
+Prototypes
+
+Inheritance using prototypes
+
+ES6 Classes: class, constructor(), extends, super
+
+Encapsulation, abstraction (basic level)
+
+
+
+
+
+
+✅ 11. The Execution Model
+
+Call stack
+
+Execution context
+
+Lexical environment
+
+Variable environment
+
+Hoisting
+
+Scope chain
+
+
+
+
+
+
+✅ 12. The Event Loop (Advanced but Important)
+
+Call stack
+
+Web APIs
+
+Callback queue
+
+Microtasks (Promises)
+
+How setTimeout and Promise behave in the event loop
+
+
+
+
+
+
+✅ 13. Memory Management (Optional)
+
+Garbage collection
+
+Memory leaks
+
+Best practices

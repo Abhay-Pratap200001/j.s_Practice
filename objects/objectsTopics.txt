@@ -1,0 +1,207 @@
+🔥 1. JavaScript Object Topics for Interviews
+Interviewers mostly test fundamentals + tricky concepts:
+
+
+<------------------------------------------------------------------------------------------------>
+
+
+
+✅ Basics
+
+What is an object? ({ key: value })
+
+Dot notation vs Bracket notation (obj.key vs obj["key"])
+
+Adding / Updating / Deleting properties (delete obj.key)
+
+Property shorthand ({ name, age })
+
+
+
+
+<----------------------------------------------------------------------------------------------------------->
+
+
+
+
+✅ Advanced Concepts
+
+this keyword (context, arrow vs normal function)
+
+Prototype & Inheritance (__proto__, Object.create)
+
+Difference between primitive vs reference types
+
+Pass by value vs pass by reference
+
+Object equality check (shallow vs deep comparison)
+
+Optional chaining (obj?.key?.subKey)
+
+Destructuring (const {name, age} = obj)
+
+Spread operator with objects ({...obj, newKey: "value"})
+
+
+
+
+<------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+✅ Interview Questions (Common)
+
+Difference between Object.keys(obj).length vs for...in loop
+
+How to deep clone an object (JSON.parse(JSON.stringify(obj)), structuredClone)
+
+How Object.assign() works
+
+Difference between for...in vs for...of
+
+delete obj.key vs obj.key = undefined
+
+How to freeze/lock an object (Object.freeze, Object.seal)
+
+Difference between hasOwnProperty vs in operator
+
+What are getters & setters in objects
+
+
+
+
+<------------------------------------------------------------------------------------------------------>
+
+
+
+
+⚡ 2. JavaScript Object Methods (Most Used in Projects)
+✅ Creation
+
+Object literal → const obj = { name: "Abhay", age: 22 }
+
+Constructor function → function Person(name) { this.name = name }
+
+Class syntax → class Person { constructor(name) { this.name = name } }
+
+Object.create(proto) → create with prototype
+
+
+
+
+<------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+✅ Object Methods (Static)
+
+Object.keys(obj) → array of keys
+
+Object.values(obj) → array of values
+
+Object.entries(obj) → array of [key, value] pairs
+
+Object.fromEntries(arr) → reverse of entries (array → object)
+
+Object.assign(target, ...sources) → copy/merge objects
+
+Object.freeze(obj) → prevent modifications (immutable)
+
+Object.seal(obj) → prevent adding/removing properties but can update values
+
+Object.preventExtensions(obj) → prevent adding new properties
+
+Object.is(obj1, obj2) → check strict equality (like === but handles NaN)
+
+Object.hasOwn(obj, key) → check if property exists (modern replacement of hasOwnProperty)
+
+
+
+
+
+<---------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+✅ Iterating over Objects
+
+for...in → loop keys
+
+Object.keys(obj).forEach() → iterate keys
+
+Object.entries(obj).map() → iterate key-value pairs
+
+
+
+
+<-------------------------------------------------------------------------------------------------------->
+
+
+
+
+✅ Daily Used Tricks in Projects
+
+Destructuring
+
+const user = { name: "Abhay", age: 22 };
+const { name, age } = user; // extract props
+
+
+Spread operator
+
+const newUser = { ...user, city: "Delhi" };
+
+
+Optional chaining
+
+console.log(user?.address?.city);
+
+
+Default values with destructuring
+
+const { role = "guest" } = user;
+
+
+Dynamic keys
+
+const key = "email";
+const obj = { [key]: "test@mail.com" };
+
+
+Merging objects
+
+const merged = { ...obj1, ...obj2 };
+
+
+
+
+
+<-------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+🚀 Most Used in Real Projects
+
+Object.keys / Object.values / Object.entries → when handling API data
+
+Spread ({ ...obj }) → immutability in React/Redux
+
+Destructuring → extracting props/state
+
+Optional chaining (?.) → safe API response handling
+
+Object.assign → merging configs/objects
+
+Object.freeze → making constants immutable
+
+delete → remove property from object before sending response
+
+JSON.stringify / JSON.parse → API calls, localStorage handling

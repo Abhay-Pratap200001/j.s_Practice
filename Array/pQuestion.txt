@@ -1,0 +1,108 @@
+✅ 30 Beginner JavaScript Logic Building Questions
+
+Write a program to print numbers from 1 to 10.
+
+Print all even numbers between 1 and 100.
+
+Find the sum of numbers from 1 to n.
+
+Check if a number is even or odd.
+
+Find the largest of 3 numbers.
+
+Reverse a string.
+
+Check if a string is a palindrome.
+
+Find the factorial of a number.
+
+Count the number of vowels in a string.
+
+Find the sum of all elements in an array.
+
+<-----------------------------complete 10 practice Questions----------------------------------------------->
+
+Find the maximum element in an array.
+
+Find the minimum element in an array.
+
+Count positive, negative, and zero numbers in an array.
+
+Check if a number is prime.
+
+Print multiplication table of a number.
+
+Swap two numbers without using a third variable.
+
+Find the number of digits in a number.
+
+Reverse a number.
+
+Calculate the power of a number (without using Math.pow()).
+
+Check if a year is a leap year.
+
+Check if a character is a vowel or consonant.
+
+Calculate the average of elements in an array.
+
+Remove duplicates from an array (using loop).
+
+Count occurrences of each element in an array.
+
+Merge two arrays manually (without using .concat()).
+
+Find the second largest number in an array.
+
+Find all prime numbers in a range.
+
+Remove all falsy values from an array (false, 0, "", null, undefined, NaN).
+
+Find the frequency of characters in a string.
+
+Check if a number is a perfect square.
+
+
+
+
+🔷 20 Intermediate JavaScript Logic Building Questions
+
+Implement a function to find GCD (Greatest Common Divisor) of two numbers.
+
+Implement a function to find LCM (Least Common Multiple) of two numbers.
+
+Sort an array without using .sort() (use bubble sort or selection sort).
+
+Implement a binary search.
+
+Write a function that flattens a nested array.
+
+Check if two strings are anagrams.
+
+Write a function to return the fibonacci series up to n terms.
+
+Write a recursive function to calculate factorial.
+
+Write a recursive function to calculate power.
+
+Implement debounce function.
+
+Remove duplicate characters from a string.
+
+Count repeated characters in a string and return as an object.
+
+Capitalize the first letter of every word in a sentence.
+
+Convert a string to camelCase.
+
+Implement a function that returns the longest word in a sentence.
+
+Find the longest substring without repeating characters.
+
+Rotate an array by k positions (circular rotation).
+
+Implement a simple calculator (add, sub, mul, div).
+
+Group objects in an array by a property.
+
+Deep clone a nested object (without JSON.stringify).

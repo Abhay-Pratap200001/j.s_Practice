@@ -94,7 +94,69 @@
 
 
 
+// Find the maximum element in an array.
+// let n = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let max = n[0]
+// for (let i = 0; i < n.length; i++) {
+//     if (n[i] > max) {
+//         max = n[i]
+//     }
+// }
+// console.log(max);
 
 
 
+// Find the minimum element in an array.
+// let n = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let min = n[0]
+// for (let i = 0; i < n.length; i++) {
+//     if (n[i]<min) {
+//         min = n[i]
+//     }    
+// }
+// console.log(min);
 
+
+// Count positive, negative, and zero numbers in an array.
+// let n = [-22, -33, -54, 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let countpositive = 0
+// let countnegative = 0
+// let zero = 0;
+
+// for (let index = 0; index < n.length; index++) {
+//     let element = n[index];
+//     element > 0 ? countpositive++ : element < 0  ? countnegative++ : zero++
+// }
+// console.log(countpositive);
+// console.log(countnegative);
+// console.log(zero);
+
+
+// Check if a number is prime.
+// Array of numbers (some positive, negative, and zero)
+let array = [-22, -33, -54, 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// Function to check if a number is prime
+function isPrime(num) {
+    if (num <= 1) return false;      // 0, 1, and negatives are not prime
+    if (num === 2) return true;      // 2 is the smallest (and only even) prime number
+    if (num % 2 === 0) return false; // other even numbers are not prime
+
+    // Check for factors from 3 up to the square root of num
+    for (let i = 3; i <= Math.sqrt(num); i = i + 2) {
+        if (num % i === 0) return false; // found a factor, not prime
+    }
+
+    return true; // no factors found, it's prime
+}
+
+// Loop through array and check each number
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+
+    if (isPrime(element)) {
+        console.log(`${element} is a prime number`);
+    } else {
+        console.log(`${element} is NOT a prime number`);
+    }
+}

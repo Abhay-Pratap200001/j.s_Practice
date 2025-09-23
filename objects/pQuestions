@@ -1,0 +1,108 @@
+✅ 30 Beginner-Level Object Questions
+
+Create an object to store a person’s name, age, and city.
+
+Access the value of a key from an object using dot and bracket notation.
+
+Add a new key email to an existing object.
+
+Delete the city key from an object.
+
+Check if a key exists in an object using in operator.
+
+Loop through an object using for...in.
+
+Count the number of keys in an object.
+
+<--------------------------------complete firstday questions------------------------------------>
+
+Convert an object into an array of keys.
+
+Convert an object into an array of values.
+
+Merge two objects into one.
+
+Create a nested object (object inside object).
+
+Access a nested value inside an object.
+
+Update a nested property value.
+
+Create a function that takes an object and returns all keys in uppercase.
+
+Get the length of an object (number of key-value pairs).
+
+Write a function to swap keys and values in an object.
+
+Write a function to clone (copy) an object.
+
+Check if two objects are equal (shallow check).
+
+Create an array of student objects with name and score.
+
+Filter student objects with score > 80.
+
+Find the average score from an array of student objects.
+
+Find the student with the highest score.
+
+Create an object from two arrays (keys and values).
+
+Convert an array of key-value pairs into an object.
+
+Convert an object to JSON string.
+
+Parse a JSON string into a JavaScript object.
+
+Create a function that returns the keys of an object whose values are numbers.
+
+Write a function to multiply all numeric values in an object by 2.
+
+Create an object with dynamic key (using variable).
+
+Create a function to check if all object values are truthy.
+
+
+
+
+⚙️ 20 Intermediate-Level Object Questions
+
+Deep clone a nested object (without using structuredClone).
+
+Create a function to compare two objects deeply.
+
+Create a function that flattens a nested object.
+
+Create a function to count the frequency of characters in a string using an object.
+
+Convert an array of objects into a single object using a key as identifier.
+
+Group an array of objects by a key (e.g., group students by class).
+
+Create an object that tracks inventory (add, remove, update items).
+
+Build a function that inverts all keys and values in a nested object.
+
+Serialize an object and store it in localStorage, then retrieve it.
+
+Create a function that merges two nested objects without overwriting.
+
+Implement a function to deeply freeze an object (no nested changes allowed).
+
+Remove keys from an object whose values are null or undefined.
+
+Convert query string to object (e.g., "a=1&b=2" → {a: "1", b: "2"})
+
+Create a recursive function to sum all numeric values in a deeply nested object.
+
+Track user login attempts in an object, reset after 3 failed attempts.
+
+Build an object-based user session tracker with login/logout timestamps.
+
+Implement an object schema validator (e.g., {name: "string", age: "number"})
+
+Create a function to flatten an array of objects into a single object.
+
+Convert CSV data (string) into an array of objects.
+
+Write a utility function that returns only the keys with primitive values from an object.

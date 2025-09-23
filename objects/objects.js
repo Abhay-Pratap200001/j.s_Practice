@@ -148,3 +148,50 @@
 //   let keycount = Object.keys(studinfo).length
 //   console.log(keycount);
   
+
+// // Convert an object into an array of keys.
+//  let studinfo = {
+//   name: 'Abhay',
+//   age: 21,
+//   city: 'Lucknow'
+// }
+// studinfo.email = 'abhay@gmail.com'
+
+// const keyarr = Object.keys(studinfo)
+// console.log(keyarr);
+
+
+// // Convert an object into an array of values.
+//  let studinfo = {
+//   name: 'Abhay',
+//   age: 21,
+//   city: 'Lucknow'
+// }
+// studinfo.email = 'abhay@gmail.com'
+
+// const keyarr = Object.values(studinfo)
+// console.log(keyarr);
+
+
+// Merge two objects into one.
+//  let studinfo = {
+//   name: 'Abhay',
+//   age: 21,
+//   city: 'Lucknow'
+// }
+// studinfo.email = 'abhay@gmail.com'
+
+
+
+// let stud = {
+//   name: 'Ratnakar',
+//   age: 27,
+//   city: 'dhoon'
+// }
+// studinfo.email = 'ratan@gmail.com'
+
+// let obj3 = {
+//     s1: studinfo,
+//     s2: stud
+// }
+// console.log(obj3);

@@ -81,5 +81,51 @@
 // console.log(sen);
 
 
+
+
 // // Trim spaces from both ends of a string.
 // console.log('  Abhay  '.trim())
+
+
+
+
+// ount how many times a specific character appears.
+// let str = 'AAABHAY'
+// let ch = 'a'
+// let ct = 0
+// for (let i = 0; i < str.length; i++) {
+//     if(str[i].toLowerCase() === ch.toLowerCase()) 
+//     ct++
+// }
+// console.log(`${ch} ${ct}`);
+
+
+// Check if a string starts with a specific word.
+// let str = 'AAABHAY'
+
+// let strch = 'A'
+// if (str.startsWith(strch)) {
+//     console.log("True");
+// }else{
+//     console.log("false");   
+// }
+
+
+
+
+// Check if a string ends with a specific word.
+
+// let str = 'AAABHAY'
+
+// let strch = 'A'
+// if (str.endsWith(strch)) {
+//     console.log("True");
+// }else{
+//     console.log("false");   
+// }
+
+
+// Reverse a string.
+// let str = 'AAABHAY'
+// let ans = str.split('').reverse().join('')
+// console.log(ans);

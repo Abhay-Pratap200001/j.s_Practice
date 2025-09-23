@@ -59,3 +59,37 @@
 // const currentsec = min.getSeconds()
 // console.log(currentmin, currentsec);
 
+
+
+
+// Format the current date as DD-MM-YYYY.
+// let datee = new Date()
+// let day = String(datee.getDate()).padStart(2, '0');
+// let mnth = String(datee.getMonth()+1).padStart(2, '0');
+// let yer = String(datee.getFullYear());
+
+// let ans = `${day}-${mnth}-${yer}`
+// console.log(ans);
+
+
+
+// Format the current date as YYYY/MM/DD.
+// let datee = new Date()
+// let yer = String(datee.getFullYear());
+// let mnth = String(datee.getMonth()+1).padStart(2, '0');
+// let day = String(datee.getDate()).padStart(2, '0');
+
+// let ans = `${yer}-${mnth}-${day}`
+// console.log(ans);
+
+
+
+// Display a full timestamp like September 20, 2025, 10:30 AM.
+// let datee = new Date()
+// let month = datee.toLocaleString('defalt',{month:'long'});
+// let yer = String(datee.getFullYear());
+// let day = String(datee.getDate()).padStart(2, '0');
+// let timee = String(datee.getTime())
+
+// console.log(`${month}, ${day}, ${yer} ${timee}`);
+

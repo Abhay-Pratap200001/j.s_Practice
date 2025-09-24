@@ -30,6 +30,9 @@ Count positive, negative, and zero numbers in an array.
 
 Check if a number is prime.
 
+
+
+
 Print multiplication table of a number.
 
 Swap two numbers without using a third variable.

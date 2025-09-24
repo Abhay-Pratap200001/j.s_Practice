@@ -22,11 +22,16 @@ Convert an object into an array of values.
 
 Merge two objects into one.
 
+
+
 Create a nested object (object inside object).
 
 Access a nested value inside an object.
 
 Update a nested property value.
+
+
+
 
 Create a function that takes an object and returns all keys in uppercase.
 

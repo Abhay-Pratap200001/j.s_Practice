@@ -50,6 +50,8 @@ Check if a string is a palindrome (same forward and backward).
 
 Remove all whitespace from a string.
 
+
+
 Find the ASCII code of a character.
 
 Get the character from an ASCII code.

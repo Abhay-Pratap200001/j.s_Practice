@@ -46,9 +46,36 @@
 // console.log(res);
 
 
+
 // Round a number down using Math.floor().
 // let num = 2.2
 // let res = Math.floor(num)
 // console.log(res);
 
 
+
+
+
+
+
+
+// Find the square of a number.
+// let num = 2
+// console.log(Math.pow(num, 2));
+
+
+// // Find the square root of a number.
+// let num = 20
+// console.log(Math.sqrt(num));
+
+
+// Generate a random number between 0 and 1.
+// let num = (Math.random())
+// console.log(num);
+
+
+// Generate a random integer between 1 and 100
+// let min = 1;
+// max = 100;
+// let num = Math.floor(Math.random() * (max - min + 1))+ min
+// console.log(num);

@@ -134,29 +134,64 @@
 
 // Check if a number is prime.
 // Array of numbers (some positive, negative, and zero)
-let array = [-22, -33, -54, 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let array = [-22, -33, -54, 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// Function to check if a number is prime
-function isPrime(num) {
-    if (num <= 1) return false;      // 0, 1, and negatives are not prime
-    if (num === 2) return true;      // 2 is the smallest (and only even) prime number
-    if (num % 2 === 0) return false; // other even numbers are not prime
+// // Function to check if a number is prime
+// function isPrime(num) {
+//     if (num <= 1) return false;      // 0, 1, and negatives are not prime
+//     if (num === 2) return true;      // 2 is the smallest (and only even) prime number
+//     if (num % 2 === 0) return false; // other even numbers are not prime
 
-    // Check for factors from 3 up to the square root of num
-    for (let i = 3; i <= Math.sqrt(num); i = i + 2) {
-        if (num % i === 0) return false; // found a factor, not prime
-    }
+//     // Check for factors from 3 up to the square root of num
+//     for (let i = 3; i <= Math.sqrt(num); i = i + 2) {
+//         if (num % i === 0) return false; // found a factor, not prime
+//     }
 
-    return true; // no factors found, it's prime
-}
+//     return true; // no factors found, it's prime
+// }
 
-// Loop through array and check each number
-for (let index = 0; index < array.length; index++) {
+// // Loop through array and check each number
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+
+//     if (isPrime(element)) {
+//         console.log(`${element} is a prime number`);
+//     } else {
+//         console.log(`${element} is NOT a prime number`);
+//     }
+// }
+
+
+// // Print multiplication table of a number.
+// for (let index = 1; index <= 10; index++) {
+//     const element = index;
+//     console.log(`2 * ${index} = ${2 * element}`);
+// }
+
+
+// Swap two numbers without using a third variable.
+// let num1 = 2;
+// let num2 = 20;
+
+// [num1, num2] = [num2, num1]
+// console.log(num1);
+// console.log(num2);
+
+
+// Find the number of digits in a number.
+// let array = [1,22,444,66,788,90]
+// let caldig = []
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+//     caldig.push(element.toString().length)
+// }
+// console.log(caldig);
+
+
+
+// Reverse a number.
+let array = [1,2,3,4,5,6,7,8,9,20]
+for (let index = array.length-1; index >= 0 ; index--) {
     const element = array[index];
-
-    if (isPrime(element)) {
-        console.log(`${element} is a prime number`);
-    } else {
-        console.log(`${element} is NOT a prime number`);
-    }
+    console.log(element);   
 }

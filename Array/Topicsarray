@@ -1,0 +1,164 @@
+📚 Complete Array Topics You Need to Master (for Projects + Interviews)
+✅ 1. Array Basics
+
+What is an array?
+
+Array declaration and initialization
+
+Indexing and length
+
+Iterating over arrays (for, for...of, forEach)
+
+
+
+✅ 2. Array Built-in Methods (must-know for interviews)
+🔹 Traversal & Transformation:
+
+map() – transform array values
+
+forEach() – perform action per item
+
+filter() – filter based on condition
+
+reduce() – accumulate values
+
+find() – find first matching item
+
+some() – check if any match
+
+every() – check if all match
+
+flat() – flatten nested arrays
+
+flatMap() – map and flatten
+
+🔹 Sorting & Searching:
+
+sort() – sort items (with compare function)
+
+reverse() – reverse array
+
+includes() – check if value exists
+
+indexOf(), lastIndexOf()
+
+🔹 Modification:
+
+push(), pop() – add/remove from end
+
+shift(), unshift() – add/remove from start
+
+splice() – add/remove from any position
+
+slice() – create a subarray
+
+concat() – merge arrays
+
+join() – convert to string
+
+fill() – fill with values
+
+copyWithin() – copy part within array
+
+
+
+
+✅ 3. Array Data Patterns
+
+These are frequently asked in interviews and used in real-world logic:
+
+Two-pointer technique (e.g., for pairs, reverse, sorting)
+
+Sliding window (e.g., max subarray, average, etc.)
+
+Frequency map using objects
+
+Hashing for lookups (using Set, Map)
+
+Nested loops vs optimized approaches
+
+Recursion on arrays
+
+
+
+
+✅ 4. Array Interview Questions to Practice
+
+Reverse an array
+
+Remove duplicates
+
+Merge two sorted arrays
+
+Find the k-th largest element
+
+Rotate an array (left/right)
+
+Find pairs with sum = target
+
+Longest subarray with sum = k
+
+Find missing number
+
+Majority element (appears > n/2 times)
+
+Find intersection of two arrays
+
+Group anagrams from array of strings
+
+Rearrange positive and negative numbers
+
+Move all 0s to end (or start)
+
+Product of array except self (without division)
+
+Max subarray sum (Kadane’s algorithm)
+
+
+
+
+✅ 5. Advanced Array Topics
+
+Arrays of objects (e.g., sorting/filtering employees, products)
+
+Deep vs shallow copy in arrays
+
+Array destructuring
+
+Higher-order functions (map/filter/reduce chaining)
+
+Performance of array methods (O(n) vs O(n^2))
+
+
+
+
+
+✅ 6. Projects You Can Build Using Arrays
+
+To reinforce concepts and impress recruiters:
+
+🔧 Project Idea	Key Array Concepts Used
+Todo List App	push, filter, map, splice
+Quiz App	map, index, conditional rendering
+Shopping Cart	reduce (total), filter (remove), map (update quantity)
+Data Table / List UI	sort, filter, pagination logic
+Memory Game	shuffle (random sort), match checking
+Image Carousel / Slider	index tracking, loop around
+Music Playlist	next/prev logic, array manipulation
+Custom Array Functions Library	Implement your own map, filter, reduce
+
+
+
+
+
+✅ 7. Bonus: Array Topics for System Design/Scalability
+
+These aren’t entry-level but will make you stand out:
+
+Chunking large arrays (split into smaller arrays)
+
+Infinite scroll (load more logic)
+
+Virtualization (rendering only visible items)
+
+Lazy loading (using array logic to load data in parts)

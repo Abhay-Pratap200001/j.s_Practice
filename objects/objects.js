@@ -195,3 +195,26 @@
 //     s2: stud
 // }
 // console.log(obj3);
+
+
+
+
+// Create a nested object (object inside object).
+ // Access a nested value inside an object.
+// Update a nested property value.
+
+// let student = {
+//     name: "Abhay",
+//     Age: 22,
+//     city: 'Lucknow',
+//     work:{
+//         profession:'Software enginner',
+//         workPlace:'Remote',
+//         experience:"beginner"  
+//     }
+// }
+// let updateval =  student.work.experience = 'Senior software enginner'
+// console.log(updateval);
+// console.log(student);
+
+

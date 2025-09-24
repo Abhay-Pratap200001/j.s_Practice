@@ -129,3 +129,31 @@
 // let str = 'AAABHAY'
 // let ans = str.split('').reverse().join('')
 // console.log(ans);
+
+
+// // onvert a string to a number (parseInt, parseFloat).
+
+// let strr = '22'
+
+// let num =  parseInt(strr)
+// console.log(typeof num);
+
+
+// let strr = '22.22'
+
+// let num =  parseFloat(strr)
+// console.log( num);
+
+
+
+// Check if a string is a palindrome (same forward and backward).
+// let str = 'mom'
+// let ans = str.split('').reverse().join('')
+// console.log(str === ans && ans === str ? 'true' : 'false');
+
+
+
+// Remove all whitespace from a string.
+// let str = '   abhay   '
+// let removewhites = str.trim()
+// console.log(removewhites.length);
